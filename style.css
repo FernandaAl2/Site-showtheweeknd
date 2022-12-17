@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#area-cabeçalho{
+    background-color: #5e1212;
+    padding: 20px;
+    text-align:left;
+    color: aliceblue;
+}
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-lateral{
+    width: 240px;
+    float:right;
+}
+
+body{
+    padding: 25px;
+    background-color: rgb(7, 7, 7);
+    color: rgb(243, 240, 240);
+    font-size: 25px;
+      
+}
+h2{
+    color: lavenderblush;
+
+}
+.area-postagem{
+    display: flex;
+    padding-left: 6px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+#postagem{
+    display: flex;
+}
+.conteudo-lateral{
+    background: #ffffff;
+    padding: 60px;
+    margin-bottom: 60px;
+    background-image: url(./Imagens/download\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 60em;
+}
+
+.rec-sq {
+    display: flex;
+    gap: 2em;
+    margin: 2em;
+   }
+.square {
+    width: 40em;
+    height: 20em;
+    background: rgb(49, 1, 1);
+}
+.branco{
+    color: white;
+}
+
+#rodape{
+    background-color: lightgray;
+    clear: none;
+    text-align:center;
+    padding: 15px;
+}
+.area-postagem{
+    background-color:#ffffff;
+    padding: 60px;
+    margin-bottom: 60px;
+    background-image: url(./Imagens/Sem\ título.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 30em;
+}
+
+.imagens{
+    display: flex;
+}
